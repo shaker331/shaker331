@@ -1,0 +1,68 @@
+
+/*media start */
+@media (max-width:767px)/*mobile +tablet*/
+{
+  .navbar-inverse .navbar-nav>li>a
+    {
+        text-align: center
+    }
+    .text-center-xs {
+        text-align: center;
+    }
+    .header button{ margin:30px auto ;display: block }
+    .social i{margin: 2px 2px}
+    .icon i
+{float: none !important; margin: 10px  0; margin-left: 150px;}
+.icon p
+{float: none;width: 100%
+}
+.awe i
+{
+    color: #ff8b38;
+    padding-left: 230px;
+    margin-top: 40px;
+    text-align: center
+}    .price-table .price-box p
+{
+    
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    width: 100px;
+    height: 80px;
+    background:black;
+    color: white;
+        }
+    .navbar-inverse .navbar-nav>li>a {float:inherit ;font-size: 20px; color:aqua}
+}
+    @media(min-width:768px)and (max-width:991px)/*small screen*/
+    {
+        .text-center-xs {
+        text-align: center;
+    }
+    .header button{ margin:30px auto ;display: block }
+.price-table .price-box p
+{
+    
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    width: 200px;
+    height: 80px;
+    background:black;
+    color: white;
+        }
+        .img {width: 100%; margin-left: 60px;}
+}
+    @media(min-width:992px)and (max-width:1199px)/*medium screen*/
+    {
+        
+      
+    
+}
+    @media(min-width:1200px)/*large screen*/
+    {
+        
+        
+        
+}

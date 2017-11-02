@@ -1,0 +1,545 @@
+body {
+    overflow: hidden;
+}
+
+/*start navbar*/
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.navbar a span
+{
+  color: #ff8b38  
+    
+}
+.navbar-inverse .navbar-nav > li > a:hover
+{
+    
+    color:#ff8b38
+}
+.header {
+    background: url(../Paris.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: :100vh;
+    position: relative;
+}
+
+.header .overlay {
+    padding-top: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100&;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.uppercase {
+
+    text-transform: uppercase;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.header h1 span {
+
+    font-weight: normal;
+    color: darkorange;
+}
+
+.header p {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: tahoma;
+}
+
+.header .lead {
+
+    font-size: 30px;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*
+.header h1 .lead:after
+{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: white;
+    
+}
+*/
+
+.header button {
+    background: transparent;
+    padding: 5px 15x;
+    border: 2px solid #fff;
+    margin-top: 1px;
+    color: white;
+
+}
+
+
+.header form {
+
+    width: 360px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.header form .form-control {
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+
+.header form .h1 {
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 0;
+
+}
+
+.header form .h1 span {
+
+    color: #ff8b38
+}
+
+.header form .btn {
+    background-color: #ff8b38;
+    margin-left: 0px;
+    width: 370px;
+}
+
+.social {
+    padding: 10px;
+}
+
+.social i {
+    color: #ccc;
+    margin: 15px 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.media p {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.media h3 {
+
+    color: black;
+}
+
+.social i {margin-left: 30px}
+.social .fa-facebook:hover {
+    color: #3b5998;
+
+}
+
+.social .fa-twitter:hover {
+    color: #1da1f2;
+
+}
+
+.social .fa-google-plus:hover {
+    color: #dd4b39;
+}
+
+.social .fa-tumblr:hover {
+    color: #35465c;
+
+}
+
+/*start tab */
+.nav-tabs-dropdown {
+  display: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.nav-tabs-dropdown:before {
+  content: "\e114";
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  right: 30px;
+}
+
+@media screen and (min-width: 769px) {
+  #nav-tabs-wrapper {
+    display: block!important;
+  }
+}
+@media screen and (max-width: 768px) {
+    .nav-tabs-dropdown {
+        display: block;
+    }
+    #nav-tabs-wrapper {
+        display: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        text-align: center;
+    }
+   .nav-tabs-horizontal {
+        min-height: 20px;
+        padding: 19px;
+        margin-bottom: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #e3e3e3;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+   }
+    .nav-tabs-horizontal  > li {
+        float: none;
+    }
+    .nav-tabs-horizontal  > li + li {
+        margin-left: 2px;
+    }
+    .nav-tabs-horizontal > li,
+    .nav-tabs-horizontal > li > a {
+        background: transparent;
+        width: 100%;
+    } 
+    .nav-tabs-horizontal  > li > a {
+        border-radius: 4px;
+    }
+    .nav-tabs-horizontal  > li.active > a,
+    .nav-tabs-horizontal  > li.active > a:hover,
+    .nav-tabs-horizontal  > li.active > a:focus {
+        color: #ffffff;
+        background-color: #428bca;
+    }
+}
+/*==================================================
+ * left tab
+ * ===============================================*/
+.tabs
+{
+border: 1px solid  whitesmoke;  
+}
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+    background-color: #ff8b38
+}
+
+.tabs1 button {
+    color: white;
+    height: 50px;
+    width: 150px;
+    background-color: #ff8b38;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-bottom: 27px;
+
+
+}
+
+.tabs1 p {
+    font-size: 18px;
+    margin-bottom: 5px;
+        margin-bottom: 37px;
+
+}
+
+.tabs1 h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 27px;
+
+}
+/*ICON*/
+.icon i
+{float: left}
+.icon p
+{float: right;
+}
+.pic-section .icon p
+{
+    float: none;
+    font-size: 15px;
+        
+}
+.pic-section h3
+{
+    font-weight: bold;
+    font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+    color:coral;
+
+}
+.pic-section p
+{
+    font-size: 15px;
+}
+.awesome
+{
+    background:rgba(255,255,255, 5%);
+
+}
+.awe h3
+{
+           font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: brown
+ 
+}
+.awe
+{
+    width: 100%; border: 1px solid black;height: 350px;
+}
+.awe i
+{
+    color: #ff8b38;
+    padding-left: 160px;
+    margin-top: 40px;
+    text-align: center
+}
+.awe p
+{
+    text-align: center;
+    margin: 20px;
+    line-height: 30px;
+}
+/*START PRICING*/
+.price-table h1 {
+    
+    margin-bottom: 40px ;
+    
+}
+.price-table
+{
+    
+    background:#eee ;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+}
+.price-table .price-box
+{
+    background:;
+    padding: 10px;
+    border: 2px solid #ddd;
+    margin-bottom: 15px;
+}
+.price-table .price-box h2
+{
+    
+    margin: 5px 0 15px;
+}
+.price-table .price-box:hover p
+{
+-webkit-transform:scale(1,1) rotate(360deg);
+ -moz-transform:scale(1,1) rotate(360deg);
+-wo-transform:scale(1,1) rotate(360deg);
+    transform: (1,1;)rotate(360deg);
+border: 2px solid red;
+}
+
+.price-table .price-box p
+{
+    
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    width: 320px;
+    height: 100px;
+    background:black;
+        border-radius: 10%;
+    line-height: 100px;
+    -webkit-transition-duration:0.7s;
+        -moz-transition-duration:0.7s;
+        -o-transition-duration:0.7s;
+    transition-duration: 0.7sl
+
+
+}
+.price-table .price-box ul
+{
+    line-height: 250%;
+    font-size: 18px;
+    
+}
+
+.price-table .price-box a{
+    margin-bottom: 5px;
+}
+.price-table .price-box p
+{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    
+}
+/*STAYLISH*/
+.staylish
+{
+    background: url(../Paris1.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: :200vh;
+    min-height: 300px;
+    position: relative;
+}
+.staylish h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.staylish p {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: tahoma;
+    padding-top: 30px;
+    line-height: 20px;
+}
+.staylish  .btn {
+   background: transparent;
+    padding: 5px 15x;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    color: white;
+}
+/*CONTACT*/
+.contact-us
+{
+    background:url("../Contact.jpg") no-repeat center center fixed;
+     -webkit-background-size:cover;
+        -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+    min-height: 250px;
+    
+}
+.contact-us .fields
+{
+    
+    background:rgba(255,255,255, 5%);
+    min-height: 300px;
+    color: #ddd;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.contact-us p
+{
+  color: #ff8b38;  
+    margin-bottom: 40px;
+}
+.contact-us h1
+{
+    
+    color: darkblue;
+}
+
+.contact-us textarea
+{
+    height: 120px;
+}
+.contact-us input[type="text"],
+.contact-us textarea
+
+{
+    background:rgba(255,255,255, 5%);
+        color: #fff;
+    border: none;
+    
+}
+.contact-us .btn
+{
+    background-color: #ff8b38
+}
+
+/*FOOTER*/
+.footer .copyright
+{
+    
+   background: #333;
+    color: #aaa;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.footer .copyright span
+{
+  color:  #ff8b38
+;  
+    
+}
+/*LOADING*/
+.loading
+
+{
+    
+    background: black;
+    color: white;
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    
+}
+.loading .spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
